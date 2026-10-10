@@ -1,0 +1,15 @@
+﻿# Fichiers confidentiels
+.env
+.env.*
+!.env.example
+.env.local
+
+# Dépendances et fichiers générés
+node_modules/
+.next/
+dist/
+build/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
