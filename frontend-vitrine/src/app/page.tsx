@@ -49,14 +49,14 @@ export default async function Home() {
               className="bg-white p-5 rounded-lg shadow-md"
             >
               {product.image?.url && (
-                <div className="w-full h-48 mb-4">
-                  <img
-                    src={`http://localhost:1337${product.image.url}`}
-                    alt={product.title}
-                    className="object-cover w-full h-full rounded"
-                  />
-                </div>
-              )}
+  <div className="w-full h-36 mb-4 flex items-center justify-center">
+    <img
+      src={`http://localhost:1337${product.image.url}`}
+      alt={product.title}
+      className="w-3/5 h-28 object-contain rounded"
+    />
+  </div>
+)}
 
               <h2 className="text-xl font-semibold mb-2 text-gray-800">
                 {product.title}
